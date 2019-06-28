@@ -1,0 +1,199 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+button{
+    /*消除button的默认样式*/
+    /*这种写法是对所有的button标签同时生效*/
+    margin: 0px;
+    padding: 0px;
+    /*自定义边框*/
+    border: 0px;
+    /*消除默认点击蓝色边框效果*/
+    outline: none;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: blue;
+}
+.ernav{
+	position: relative;
+	background: url(../imgs2/c1.png) repeat-x;
+	
+	
+	width: 100%;
+	height: 100px;
+	
+}
+.ernav-logo{
+	width: 60px;
+	height: 45px;
+	
+	
+}
+.ernav-logo a{
+	margin-top: 30px;
+	margin-left: 150px;
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	background: url("../imgs2/logo-carbon@2x.1c36190975dfff1328bfad3f848ba4a5.png") no-repeat 50%;
+	background-size: contain;
+}
+.ernav-top{
+	width: 920px;
+	height: 18px;
+	margin: 0 auto;
+}
+.ernav-top ul{
+	margin-top:-5px ;
+	width: 920px;
+	height: 18px;
+}
+.ernav-top ul li{
+	float: left;
+	width: auto;
+	height: 18px;
+	margin-left: 25px;
+	/*text-align: center;
+	line-height: 18px;*/
+}
+.ernav-top ul li a{
+	font-size:14px ;
+	color: #646464;
+    
+}
+.ernav-top ul li a:hover{
+	color: #ccc;
+}
+.ernav-top ul li a:active{
+	color: #ccc;
+    font-weight: 700;
+}
+.ernav-right{
+	width: 160px;
+	height: 20px;
+	float: right;
+	margin-top: -18px;
+	margin-right: 150px;
+	border-left:1px solid #646464 ;
+}
+.ernav-right a{
+	margin-top: -10px;
+	
+	color: #646464;
+	position: relative;
+	display: inline-block;
+	width: auto;
+	margin-left:30px ;
+	height: 20px;
+	height: auto;
+	text-align: center;
+	
+	font-size: 18px;
+	
+}
+.ernav-xialacaidan{
+	border-radius:10px ;
+	background-color: #FFFFFF;
+	width: 350px;
+	height: 300px;
+	display: none;
+	position: absolute;
+	
+	right: 0px;
+}
+.ernav-xialacaidan .xlcd-shopping{
+	width: 76px;
+	height: 62px;
+	margin: 60px auto;
+}
+.ernav-xialacaidan h1{
+	font-size: 20px;
+}
+.ernav-xialacaidan p{
+	margin: 20px 0;
+	font-size: 15px;
+}
+.topbu{
+	width: 100%;
+	height: 40px;
+	background: url(../imgs2/asd1.png) repeat-x;
+	
+}
+.topbuuu{
+	
+	width: 1220px;
+	height: 40px;
+	margin: 0 auto;
+}
+.topbu-left{
+	display: inline-block;
+	
+	width: auto;
+	height: 40px;
+	margin: 0 auto;
+}
+.topbu-left ul{
+	
+	width: auto;
+	height: 40px;
+}
+.topbu-left ul li{
+	float: left;
+	width: auto;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	margin-left: 20px;
+	font-size: 14px;
+	
+}
+.topbu-left ul li a{
+	color: #646464; 
+}
+.topbu-left ul li a:hover{
+	color: #ccc;
+}
+.topbu-left ul li a:active{
+	color: #ccc;
+    font-weight: 700;
+}
+.topbu-right{
+	display: inline-block;
+	float: right;
+	width: auto;
+	height: 40px;
+}
+.topbu-right .llop{
+	background:none;
+	display: inline-block;
+	font-size: 14px;
+	color: #646464; 
+	text-align: center;
+	line-height: 40px;
+}
+.topbu-right a{
+	display: inline-block;
+	background: url("../imgs2/button-dark-normal@2x.568d91fcc5275e2480b593206c372ac4.png") no-repeat;
+	background-size: contain;
+    text-align: center;
+    color: #fff;
+    width: 92px;
+    height: 40px;
+    line-height: 40px;
+    font-weight: 700;
+    font-size: 14px;
+}
+.imgs{
+	
+	width: 100%;
+	height: auto;
+	
+}
+.imgs img{
+	vertical-align: top;
+}
